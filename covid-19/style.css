@@ -1,71 +1,8 @@
-/*
-*{
-    margin: 0;    
-    box-sizing: border-box;
- }
-header{
-	//background-image: url(teste2.jpg);
- 	//background-repeat: no-repeat;
- 	//background-size: cover;
- 	background: linear-gradient(to right, #6F6D6E, #B73230);
- 	display: flex;
- 	width: 100vw;
- 	height: auto;
- 	justify-content: space-between;    
-}
 
-.logo{
-	width: 15%;
-    margin: 0 55px;
-    padding: 0;
-}
-
-
-.navbar{
-	justify-content: space-between;
-}
-
-
-.navbar ul{
-   top: 4%;
-   left: 64%;
-   display: flex;
-   position: absolute;
-   list-style-type: none;
-   text-transform: uppercase;
-  
-}
-
-.navbar li{
-	margin: 0%;
-    padding: 0%;
-	display: flex;	
-    text-decoration: none;
-}
-
-.navbar ul li a {
-	background-color: transparent;
-    border-radius: 0.35em;
-    padding: 10px 16px;
-    text-decoration:none;
-    color: #fff;
-}
-
-.navbar ul li a:hover {
-    background-color: #6F6D6E;
-}
-*/
 * {
   margin: 0;
   box-sizing: border-box;
 
-}
-
-html{
-	background-size: cover;
-	background-image: url(teste2.jpg);
-	background-repeat: no-repeat;
-		 
 }
 
 body{
@@ -116,12 +53,6 @@ header {
 }
 
 /*-------------------------mains-------------------*/
-.logoevideo{
-	opacity: 0.75;
-	background-color: #fff;
-	
-}
-
 
 .titulo3{
 	margin: 4% 0 4%;
@@ -161,6 +92,8 @@ header {
 		width: 40%;
 	    margin: 0% 5%;
 	    display: inline-block;
+	    position: relative;
+   		bottom: 50px;
 	}
 }
 
@@ -214,9 +147,9 @@ header {
 @media only screen and (min-width: 900px){
 	.textos{
 		width: 52%;
-    margin: 14px;
-    display: inline-block;
-    padding: 0px 0px 0 65px;
+    	margin: 14px;
+    	display: inline-block;
+    	padding: 0px 0px 0 65px;
 	}
 
 }
@@ -257,14 +190,14 @@ header {
 	}
 
 }
+
 @media only screen and (min-width: 1200px){
 	.texto1{
-	font-size: 18px;
-	text-align: justify;
-	margin: 0 2px 2px 39px;
-	line-height: 26px;
-
-}
+		font-size: 18px;
+		text-align: justify;
+		margin: 0 2px 2px 39px;
+		line-height: 26px;
+	}
 }
 .mais{
 	font-size: 20px;
@@ -298,6 +231,7 @@ header {
 	    display: inline-block;
 	}
 }
+
 .container2 a{
 	text-decoration: none;
 
@@ -394,14 +328,15 @@ p {
 
 footer{
 	height: 100%;
+  
 }
 
 
 .rodape{
 	background: linear-gradient(to right, #6f6d6e, #b73230);
-	opacity: 0.5;
 	text-align: center;
 	padding: 20px 0 10px;
+	width: 100%;
 	
 }
 
@@ -411,4 +346,102 @@ footer{
 	margin: 0 15px;
 	display: inline-block;
 	text-align: center;
+}
+/*----------------------------------------Sobre-----------------------------*/
+.sobre{
+    margin: 50px 10px;
+}
+
+
+.paragrafo{
+	width: 50%;
+    background-color:  #fff;
+    border-radius: 3%;
+    padding: 16px 32px 0;
+    opacity: 0.7;
+    display: inline-block;
+    margin: 0 136px 0 70px;
+}
+
+
+.par{
+	text-align: inherit;	
+    line-height: 35px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+
+.myfoto{
+	width: 30%;
+	display: inline-block;
+}
+
+
+.myfoto:hover{
+    transform: scale(1.02, 1.02);
+
+}
+.fotoimagem{
+	width:86%;
+	filter:grayscale(90%);
+	transition: 0.5s;
+	border-radius: 30%;
+	position: relative;
+    top: 23px;
+    left: 20px;
+}
+
+.fotoimagem:hover{
+	filter: none;
+}
+
+
+
+
+/*----------------------------------------Contato------------------------------*/
+.contato1 {
+	background-size: cover;
+	background-image: url(imagem/teste2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.formulario{
+	text-align: center;
+	margin-top: 91px;
+}
+/*----------------------------------------saiba------------------------------*/
+
+
+.container23{
+	display: inline-block;
+	margin: 8% 7% 2% 11%;
+
+}
+
+.saibatitulo{
+
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+
+}
+
+.saibatitulo:hover{
+    transform: scale(1.02, 1.02);
+}
+
+.fonte1:hover {
+	box-shadow: 0 10px 15px 0 rgba(220,227,247,1);
+	transform: scale(1.02, 1.02);
+}
+
+
+.imgsaiba{
+	width: 400px;
+	height: 235px;
+	text-align: center;
+	margin: 15px;
+
 }
