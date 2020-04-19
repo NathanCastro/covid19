@@ -63,7 +63,7 @@ header {
 }
 
 .covid{
-	padding: 18px 0 0 0;
+	padding: 18px 0 36px 0;
 }
 
 
@@ -88,6 +88,15 @@ header {
 }
 
 @media only screen and (min-width: 1200px){
+	.video {
+		width: 40%;
+	    margin: 0% 3%;
+	    display: inline-block;
+	    position: relative;
+   		bottom: 50px;
+	}
+}
+@media only screen and (min-width: 1600px){
 	.video {
 		width: 40%;
 	    margin: 0% 5%;
@@ -146,10 +155,25 @@ header {
 
 @media only screen and (min-width: 900px){
 	.textos{
-		width: 52%;
-    	margin: 14px;
+		width: 65%;
+    	margin: 16px;
     	display: inline-block;
-    	padding: 0px 0px 0 65px;
+	}
+
+}
+@media only screen and (min-width: 1200px){
+	.textos{
+		width: 65%;
+    	margin: 16px;
+    	display: inline-block;
+	}
+
+}
+@media only screen and (min-width: 1600px){
+	.textos{
+		width: 65%;
+    	margin: 16px;
+    	display: inline-block;
 	}
 
 }
@@ -168,7 +192,7 @@ header {
 	.texto1{
 		font-size: 18px;
 		text-align: justify;
-		margin: 0 2px 2px 39px;
+		
 	}
 }
 
@@ -178,8 +202,8 @@ header {
 		text-align: justify;
 		margin: 0 2px 2px 39px;
 	}
-}
 
+}
 
 @media only screen and (min-width: 1200px){
 	.textos{
@@ -191,12 +215,22 @@ header {
 
 }
 
+@media only screen and (min-width: 1600px){
+	.textos{
+		width: 45%;
+    	display: inline-block;
+    	text-align: center;
+   		margin: 14px;
+	}
+
+}
+
 @media only screen and (min-width: 1200px){
 	.texto1{
-		font-size: 18px;
-		text-align: justify;
-		margin: 0 2px 2px 39px;
-		line-height: 26px;
+		font-size: 21px;
+   	 	text-align: justify;
+    	margin: 0 2px 2px 39px;
+    	line-height: 36px;
 	}
 }
 .mais{
