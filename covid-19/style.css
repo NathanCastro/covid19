@@ -434,7 +434,7 @@ footer{
 
 
 /*----------------------------------------Contato------------------------------*/
-.contato1 {
+html{
 	background-size: cover;
 	background-image: url(imagem/teste2.png);
 	background-repeat: no-repeat;
